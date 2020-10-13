@@ -1,0 +1,126 @@
+body{
+	margin-left:50;
+	margin-right:50;
+	text-align:center;
+	font-family:"Avenir Next";
+	overflow:auto;
+}
+img{
+	padding-left:100px;
+	padding-right:100px;
+}
+nav ul{
+	list-style:none;
+	padding-right:100px;
+	padding-top:110px;
+	padding-bottom:60px
+}
+nav ul li{
+	float:right;
+	width:7%;
+}
+nav ul li a{
+	text-decoration:none;
+	font-size:18;
+	display:block;
+	padding:5% 12%;
+	color:black;
+}
+nav ul li a:hover, nav ul li.active a{
+	color:red;
+}
+footer{
+	margin-left:100px;
+	margin-right:100px;
+	background:#D3D3D3;
+}
+.first_row p{
+	font-size:25;
+}
+.one_third{
+	width:25%;
+	float:left;
+	padding:2%;
+	text-align:center;
+}
+.one_third p{
+	margin-left:160px;
+}
+.one_third img{
+	transition: 0.2s all ease-in-out; 
+}
+.one_third img:hover{
+	transform: scale(1.1); 
+}
+.one_third p a{
+	text-decoration:none;
+	color:black;
+}
+.one_third p a:hover{
+	color:red;
+}
+.clearfix{
+	clear:both;
+}
+.last{
+	width:25%;
+	display:inline-block;
+	vertical-align:top;
+	padding:2%;
+}
+.social{
+	text-align:right;
+	margin-right:50px;
+	font-size:25;
+}
+.social a{
+	color:black;
+	padding:1%;
+}
+.social a:hover{
+	color:white;
+}
+.logo img{
+	float:left;
+}
+@media (max-width:768px){
+	body{
+	margin-left:0;
+	margin-right:0;
+	text-align:center;
+	font-family:"Avenir Next";
+	overflow:auto;
+	}
+	img{
+	padding-left:0px;
+	padding-right:0px;
+	}
+	nav ul{
+	list-style:none;
+	padding-right:0;
+	padding-top:0;
+	padding-bottom:0;
+	}
+	nav ul li{
+	width:100%;
+	float:top;
+	}
+	nav ul li a{
+	text-decoration:none;
+	font-size:18;
+	display:block;
+	color:black;
+	text-align:center;
+	}
+	.main img{
+		width:500px;
+	}
+	.one_third{
+	width:100%;
+	padding:2%;
+	text-align:center;
+	}
+	.logo img{
+		float:none;
+	}
+}
