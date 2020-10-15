@@ -123,4 +123,8 @@ footer{
 	.logo img{
 		float:none;
 	}
+	footer{
+		margin-left:0px;
+		margin-right:0px;
+	}
 }
